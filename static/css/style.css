@@ -1,0 +1,7 @@
+:root {
+    --main-color: #191a19;
+    --accent-color: #4e9f3d;
+}
+body {
+    background-color: #191a19 !important;
+}
