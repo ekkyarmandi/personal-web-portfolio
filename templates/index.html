@@ -32,6 +32,13 @@
             .second-bg {
                 background-color: var(--secondary-color);
             }
+            #hero {
+                height: 87vh;
+            }
+
+            #hero img {
+                height: 560px;
+            }
             #navbar a {
                 text-decoration: none;
                 color: gray;
@@ -77,15 +84,15 @@
             }
             #service .card {
                 background-color: var(--main-color);
-                height: 410px;
+                height: 430px;
             }
             #service .badge {
                 background-color: var(--accent-color);
                 user-select: none;
             }
             #skills img {
-                max-width: 80px;
-                max-height: 80px;
+                max-width: 65px;
+                max-height: 65px;
             }
         </style>
     </head>
@@ -112,7 +119,7 @@
 
         <!-- Hero -->
         <section id="hero">
-            <div class="container text-light my-5">
+            <div class="container text-light my-4">
                 <div class="row">
                     <div class="col-5 offset-1 position-relative">
                         <div class="position-absolute top-50 translate-middle-y">
@@ -137,7 +144,7 @@
                         </div>
                     </div>
                     <div class="col-5 d-flex justify-content-end">
-                        <img src="/static/images/ekky-armandi.jpg" alt="Potrait of me" style="width: 400px" />
+                        <img src="/static/images/ekky-armandi.jpg" alt="Potrait of me" />
                     </div>
                 </div>
             </div>
@@ -148,14 +155,14 @@
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="my-5 col-5">
+                        <div class="my-4 col-5">
                             <h3><span><</span>About Me/<span>></span></h3>
                             <hr />
                             <p style="text-align: justify">
-                                I am a <i>self-taught</i> programmer. I have been interested in developing programs since my first year at university (about <span id="starting-year">6</span> years ago). My curiosity about computer software
-                                led me to learn more about programming. I have a Bachelor's Degree in Industrial Engineering (2019). I use my programming skill to develop a Genetic Algorithm for solving route optimization problems and make
-                                it my <a href="https://journals.ums.ac.id/index.php/jiti/article/download/8744/5015" style="color: var(--accent-color)">undergraduate thesis</a>. I have learned about Matlab, Python, and JavaScript so far. I
-                                also have been freelancing for the last 3 years, and I am looking forward to collaborating with you right now!
+                                I am a <i>self-taught</i> programmer. I have been interested in developing programs since my first year at university (about <span id="starting-year" date="2016-07-01">6</span> years ago). My curiosity about computer software
+                                led me to learn more about programming stuff. I have a Bachelor's Degree in Industrial Engineering (2019). I use my programming skill to develop a Genetic Algorithm for solving route optimization problems and
+                                make it my <a href="https://journals.ums.ac.id/index.php/jiti/article/download/8744/5015" style="color: var(--accent-color)">undergraduate thesis</a>. I have learned about Matlab, Python, and JavaScript so
+                                far. I also have been freelancing for the last <span id="init-year" date="2019-08-01">3</span> years, and I am looking forward to collaborating with you!
                             </p>
                             <hr />
                         </div>
@@ -165,7 +172,7 @@
         </section>
 
         <!-- Portfolio -->
-        <section id="portfolio" class="py-5">
+        <section id="portfolio" class="py-4">
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -201,7 +208,7 @@
         </section>
 
         <!-- Services -->
-        <section id="service" class="second-bg py-5">
+        <section id="service" class="second-bg py-4">
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -212,7 +219,7 @@
                     </div>
                     <div class="row mb-3 justify-content-center">
                         <div class="col-2">
-                            <div class="card border-light p-2 pt-4">
+                            <div class="card border-light p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/programing.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Python Programming Related Project</h5>
@@ -222,7 +229,7 @@
                             </div>
                         </div>
                         <div class="col-2">
-                            <div class="card border-light p-2 pt-4">
+                            <div class="card border-light p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/monitor.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Data Scraping</h5>
@@ -232,7 +239,7 @@
                             </div>
                         </div>
                         <div class="col-2">
-                            <div class="card border-light p-2 pt-4">
+                            <div class="card border-light p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/dashboard.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Data Visualization</h5>
@@ -242,7 +249,7 @@
                             </div>
                         </div>
                         <div class="col-2">
-                            <div class="card border-light p-2 pt-4 position-relative">
+                            <div class="card border-light p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/hosting.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Web Application</h5>
@@ -257,7 +264,7 @@
         </section>
 
         <!-- Client's Feedback -->
-        <section id="feedback" class="py-5">
+        <section id="feedback" class="py-4">
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row">
@@ -270,7 +277,7 @@
         </section>
 
         <!-- Skills -->
-        <section id="skills" class="second-bg py-5">
+        <section id="skills" class="second-bg py-4">
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -279,7 +286,7 @@
                             <hr />
                         </div>
                     </div>
-                    <div class="pt-3 pb-1">
+                    <div class="pt-2 pb-1">
                         <div class="row">
                             <div class="col">
                                 <h5>Development Tools</h5>
@@ -312,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pt-3 pb-1">
+                    <div class="pt-2 pb-1">
                         <div class="row">
                             <div class="col">
                                 <h5>Data Scraping</h5>
@@ -333,7 +340,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pt-3 pb-1">
+                    <div class="pt-2 pb-1">
                         <div class="row">
                             <div class="col">
                                 <h5>Data Visualization</h5>
@@ -366,7 +373,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pt-3 pb-1">
+                    <div class="pt-2 pb-1">
                         <div class="row">
                             <div class="col">
                                 <h5>Full-stack Web Development</h5>
@@ -403,10 +410,10 @@
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class="text-center text-light my-4">Copyright &copy; Ekky Armandi (<span>2022</span>)</footer>
+        <footer class="text-center text-light fw-light my-2">Copyright &copy; Ekky Armandi (<span>2022</span>)</footer>
 
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/static/js/year.js"></script>
     </body>
 </html>
