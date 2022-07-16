@@ -1,7 +1,83 @@
 :root {
-    --main-color: #191a19;
+    --main-color: #191919;
+    --secondary-color: #212121;
     --accent-color: #4e9f3d;
 }
 body {
-    background-color: #191a19 !important;
+    background-color: var(--main-color) !important;
+    font-family: "Ubuntu", sans-serif;
+}
+.hidden {
+    display: none;
+}
+.second-bg {
+    background-color: var(--secondary-color);
+}
+#hero {
+    height: 87vh;
+}
+
+#hero img {
+    height: 560px;
+}
+#navbar a {
+    text-decoration: none;
+    color: gray;
+}
+#navbar a:hover {
+    color: white;
+}
+#navbar a.active {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+#navbar a.active:hover {
+    text-decoration: underline;
+}
+.brand {
+    color: var(--accent-color);
+}
+.brand span.negative {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+.btn-brand {
+    color: white;
+    background-color: var(--accent-color);
+}
+.btn-brand:hover {
+    box-shadow: 0 0 5px rgba(78, 159, 61, 0.8);
+    color: var(--accent-color);
+}
+.btn-cv {
+    color: white;
+    background-color: gray;
+}
+.btn-cv:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    color: white;
+}
+.social-icon a:hover {
+    color: white !important;
+}
+#service img {
+    width: 140px;
+}
+#service .card {
+    background-color: var(--main-color);
+    height: 330px;
+}
+#service .card:hover {
+    border-color: var(--accent-color);
+}
+#service .badge {
+    background-color: var(--accent-color);
+    user-select: none;
+}
+#skills img {
+    max-width: 65px;
+    max-height: 65px;
+}
+#feedback i[class*="fa-star"] {
+    color: gold;
 }

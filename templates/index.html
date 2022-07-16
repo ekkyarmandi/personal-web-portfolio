@@ -15,86 +15,7 @@
 
         <!-- My Style -->
         <!-- <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/adobe-clean" /> -->
-        <!-- <link rel="stylesheet" href="static/css/style.css" /> -->
-        <style>
-            :root {
-                --main-color: #191919;
-                --secondary-color: #212121;
-                --accent-color: #4e9f3d;
-            }
-            body {
-                background-color: var(--main-color) !important;
-                font-family: "Ubuntu", sans-serif;
-            }
-            .hidden {
-                display: none;
-            }
-            .second-bg {
-                background-color: var(--secondary-color);
-            }
-            #hero {
-                height: 87vh;
-            }
-
-            #hero img {
-                height: 560px;
-            }
-            #navbar a {
-                text-decoration: none;
-                color: gray;
-            }
-            #navbar a:hover {
-                color: white;
-            }
-            #navbar a.active {
-                font-weight: bold;
-                color: var(--accent-color);
-            }
-            #navbar a.active:hover {
-                text-decoration: underline;
-            }
-            .brand {
-                color: var(--accent-color);
-            }
-            .brand span.negative {
-                color: var(--main-color);
-                background-color: var(--accent-color);
-            }
-            .btn-brand {
-                color: white;
-                background-color: var(--accent-color);
-            }
-            .btn-brand:hover {
-                box-shadow: 0 0 5px rgba(78, 159, 61, 0.8);
-                color: var(--accent-color);
-            }
-            .btn-cv {
-                color: white;
-                background-color: gray;
-            }
-            .btn-cv:hover {
-                box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-                color: white;
-            }
-            .social-icon a:hover {
-                color: white !important;
-            }
-            #service img {
-                width: 140px;
-            }
-            #service .card {
-                background-color: var(--main-color);
-                height: 430px;
-            }
-            #service .badge {
-                background-color: var(--accent-color);
-                user-select: none;
-            }
-            #skills img {
-                max-width: 65px;
-                max-height: 65px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
     </head>
     <body>
         <!-- Navbar -->
@@ -138,7 +59,7 @@
                             <a class="text-secondary fs-4 me-2" href="#"><i class="fa-brands fa-linkedin"></i></a>
                             <div class="mt-3">
                                 <p class="fw-light">
-                                    I also available on <a id="upwork-link" class="text-decoration-none" href="#"><span class="fw-normal" style="color: #14a800">Up</span><span class="text-light">Work</span></a>
+                                    I'm also available on <a id="upwork-link" class="text-decoration-none" href="#"><span class="fw-normal" style="color: #14a800">Up</span><span class="text-light">Work</span></a>
                                 </p>
                             </div>
                         </div>
@@ -159,10 +80,10 @@
                             <h3><span><</span>About Me/<span>></span></h3>
                             <hr />
                             <p style="text-align: justify">
-                                I am a <i>self-taught</i> programmer. I have been interested in developing programs since my first year at university (about <span id="starting-year" date="2016-07-01">6</span> years ago). My curiosity about computer software
-                                led me to learn more about programming stuff. I have a Bachelor's Degree in Industrial Engineering (2019). I use my programming skill to develop a Genetic Algorithm for solving route optimization problems and
-                                make it my <a href="https://journals.ums.ac.id/index.php/jiti/article/download/8744/5015" style="color: var(--accent-color)">undergraduate thesis</a>. I have learned about Matlab, Python, and JavaScript so
-                                far. I also have been freelancing for the last <span id="init-year" date="2019-08-01">3</span> years, and I am looking forward to collaborating with you!
+                                I am a <i>self-taught</i> programmer. I have been interested in developing programs since my first year at university (about <span id="starting-year" date="2016-07-01">6</span> years ago). My curiosity about
+                                computer software led me to learn more about programming stuff. I have a Bachelor's Degree in Industrial Engineering (2019). I use my programming skill to develop a Genetic Algorithm for solving route
+                                optimization problems and make it my <a href="https://journals.ums.ac.id/index.php/jiti/article/download/8744/5015" style="color: var(--accent-color)">undergraduate thesis</a>. I have learned about Matlab,
+                                Python, and JavaScript so far. I also have been freelancing for the last <span id="init-year" date="2019-08-01">3</span> years, and I am looking forward to collaborating with you!
                             </p>
                             <hr />
                         </div>
@@ -218,8 +139,8 @@
                         </div>
                     </div>
                     <div class="row mb-3 justify-content-center">
-                        <div class="col-2">
-                            <div class="card border-light p-1 pt-4">
+                        <div class="col-3">
+                            <div class="card p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/programing.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Python Programming Related Project</h5>
@@ -228,18 +149,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2">
-                            <div class="card border-light p-1 pt-4">
+                        <div class="col-3">
+                            <div class="card p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/monitor.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Data Scraping</h5>
                                     <span class="badge rounded-pill mb-2 fw-light">Expert</span>
-                                    <p class="mt-1">Develop data scraping script, provide the scraper script and or the scraped data</p>
+                                    <p class="mt-1">Develop data scraping script, provide the scraper script include the scraped data (if needed)</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2">
-                            <div class="card border-light p-1 pt-4">
+                    </div>
+                    <div class="row mb-3 justify-content-center">
+                        <div class="col-3">
+                            <div class="card p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/dashboard.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Data Visualization</h5>
@@ -248,8 +171,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2">
-                            <div class="card border-light p-1 pt-4">
+                        <div class="col-3">
+                            <div class="card p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/hosting.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Web Application</h5>
@@ -267,9 +190,53 @@
         <section id="feedback" class="py-4">
             <div class="container-fluid text-light text-center">
                 <div class="container">
-                    <div class="row">
-                        <div class="col">
+                    <div class="row justify-content-center">
+                        <div class="col-5">
                             <h3><span><</span>Client's Feedback/<span>></span></h3>
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner d-flex align-items-center" style="height: 300px">
+                                    <div class="carousel-item active">
+                                        <div class="row justify-content-center">
+                                            <div class="col-6 text-start">
+                                                <a class="text-decoration-none text-light" href="https://www.upwork.com/freelancers/ekkyarmandi" target="_blank">
+                                                    <small>June 1, 2022</small>
+                                                    <h5>Develop Instagram Scraper</h5>
+                                                    <p class="fs-5">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>(5.0)</span>
+                                                    </p>
+                                                    <p style="text-align: justify">
+                                                        <i>"Ekky is great to work with, reliable, and very helpful. He is also very knowledgeable and creative in his approach. Will work with him again in the future."</i>
+                                                        <figcaption class="blockquote-footer text-end">UpWork's Client</figcaption>
+                                                    </p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-5">
+                            <hr />
                         </div>
                     </div>
                 </div>
@@ -410,10 +377,11 @@
             </div>
         </section>
 
-        <footer class="text-center text-light fw-light my-2">Copyright &copy; Ekky Armandi (<span>2022</span>)</footer>
+        <footer class="text-center text-light fw-light my-2">Copyright &copy; Ekky Armandi (<span id="copyright-year">2022</span>)</footer>
 
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="/static/js/year.js"></script>
+        <script src="/static/js/carousel.js"></script>
     </body>
 </html>
