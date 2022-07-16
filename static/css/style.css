@@ -14,11 +14,13 @@ body {
     background-color: var(--secondary-color);
 }
 #hero {
-    height: 87vh;
+    padding-top: 74px;
+    height: 100vh;
 }
-
-#hero img {
-    height: 560px;
+.nav-bg {
+    background-color: var(--main-color);
+    transition: 0.3s;
+    z-index: 99;
 }
 #navbar a {
     text-decoration: none;
