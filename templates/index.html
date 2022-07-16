@@ -16,12 +16,13 @@
         <!-- My Style -->
         <!-- <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/adobe-clean" /> -->
         <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/static/css/responsive.css" />
     </head>
     <body>
         <!-- Navbar -->
         <div class="container-fluid position-fixed" id="navbar">
             <div class="container d-flex justify-content-center">
-                <nav class="navbar navbar-dark navbar-expand-lg bg-transparent col-10">
+                <nav class="navbar navbar-dark navbar-expand-md bg-md-transparent col-12 col-lg-10">
                     <a class="navbar-brand" href="#">
                         <h3 class="brand m-0"><i class="fa-solid fa-laptop-file"> EA</i></h3>
                     </a>
@@ -29,7 +30,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav m-0 d-flex justify-content-between col-6">
+                        <ul class="navbar-nav m-0 d-flex justify-content-between col-xl-6 col-lg-8">
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
@@ -45,15 +46,15 @@
         <section id="hero">
             <div class="container text-light pb-4 h-100">
                 <div class="row h-100">
-                    <div class="col-5 offset-1 position-relative">
-                        <div class="position-absolute top-50 translate-middle-y">
+                    <div class="col-md-6 col-lg-5 offset-lg-1 position-relative order-md-1 order-2">
+                        <div class="position-absolute top-50 translate-middle-y p-md-2 p-lg-0">
                             <h5 class="fw-light">Hi, I am <span class="fw-bold">Ekky Armandi</span></h5>
                             <h2>a <span class="fw-bold brand">Python Developer</span></h2>
                             <h5 class="fw-light">I provide solution for python programming related task.</h5>
                             <button class="btn btn-brand mt-2 me-2" style="font-size: small"><i class="fa-regular fa-envelope me-2"></i>EMAIL ME</button>
                             <button class="btn btn-cv mt-2 me-2" style="font-size: small"><i class="fa-regular fa-file me-2"></i>DOWNLOAD CV</button>
                         </div>
-                        <div class="social-icon text-secondary position-absolute bottom-0">
+                        <div class="hidden social-icon text-secondary position-absolute bottom-0">
                             <p class="fw-light mb-0">social networks</p>
                             <a class="text-secondary fs-4 me-2" href="#"><i class="fa-brands fa-github"></i></a>
                             <a class="text-secondary fs-4 me-2" href="#"><i class="fa-brands fa-whatsapp"></i></a>
@@ -67,7 +68,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 d-flex justify-content-end h-100">
+                    <div class="col-md-6 col-lg-5 d-flex justify-content-center justify-content-md-end h-100 order-1 order-md-2">
                         <img src="/static/images/ekky-armandi.jpg" alt="Potrait of me" />
                     </div>
                 </div>
@@ -79,7 +80,7 @@
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="my-4 col-5">
+                        <div class="my-4 col-md-10 col-lg-6">
                             <h3><span><</span>About Me/<span>></span></h3>
                             <hr />
                             <p style="text-align: justify">
@@ -100,13 +101,13 @@
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-5">
+                        <div class="col-md-10 col-xl-6">
                             <h3><span><</span>Portfolio/<span>></span></h3>
                             <hr />
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-8">
+                        <div class="col-md-10 col-lg-6">
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-4">
@@ -136,14 +137,14 @@
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-5">
+                        <div class="col-md-10 col-lg-6">
                             <h3><span><</span>Services/<span>></span></h3>
                             <hr />
                         </div>
                     </div>
                     <div class="row mb-3 justify-content-center">
-                        <div class="col-3">
-                            <div class="card p-1 pt-4">
+                        <div class="col-md-5 col-lg-3">
+                            <div class="card p-1 pt-4 mb-3">
                                 <img class="align-self-center" src="/static/images/programing.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Python Programming Related Project</h5>
@@ -152,7 +153,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-5 col-lg-3">
                             <div class="card p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/monitor.png" alt="" />
                                 <div class="card-body text-start">
@@ -164,8 +165,8 @@
                         </div>
                     </div>
                     <div class="row mb-3 justify-content-center">
-                        <div class="col-3">
-                            <div class="card p-1 pt-4">
+                        <div class="col-md-5 col-lg-3">
+                            <div class="card p-1 pt-4 mb-3">
                                 <img class="align-self-center" src="/static/images/dashboard.png" alt="" />
                                 <div class="card-body text-start">
                                     <h5 class="my-0">Data Visualization</h5>
@@ -174,7 +175,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-5 col-lg-3">
                             <div class="card p-1 pt-4">
                                 <img class="align-self-center" src="/static/images/hosting.png" alt="" />
                                 <div class="card-body text-start">
@@ -194,18 +195,18 @@
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-5">
+                        <div class="col-lg-6">
                             <h3><span><</span>Client's Feedback/<span>></span></h3>
                             <hr />
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-10">
+                        <div class="col-md-12 col-lg-8">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner d-flex align-items-center" style="height: 300px">
+                                <div class="carousel-inner d-flex align-items-center">
                                     <div class="carousel-item active">
                                         <div class="row justify-content-center">
-                                            <div class="col-6 text-start">
+                                            <div class="col-md-9 col-lg-9 text-start">
                                                 <a class="text-decoration-none text-light" href="https://www.upwork.com/freelancers/ekkyarmandi" target="_blank">
                                                     <small>June 1, 2022</small>
                                                     <h5>Develop Instagram Scraper</h5>
@@ -238,7 +239,7 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-5">
+                        <div class="col-lg-6">
                             <hr />
                         </div>
                     </div>
@@ -251,7 +252,7 @@
             <div class="container-fluid text-light text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-5">
+                        <div class="col-lg-6">
                             <h3><span><</span>Tools & Skills/<span>></span></h3>
                             <hr />
                         </div>

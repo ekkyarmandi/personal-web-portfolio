@@ -1,0 +1,32 @@
+@media screen and (max-width: 575px) {
+    #navbar {
+        background-color: var(--main-color);
+    }
+    #carouselExampleControls button {
+        width: 20px;
+    }
+    #carouselExampleControls .carousel-inner {
+        height: 380px;
+    }
+}
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+    #hero .position-absolute.translate-middle-y {
+        background-color: var(--secondary-color-alpha);
+    }
+    #service .card {
+        background-color: var(--main-color);
+        height: 360px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #hero .position-absolute.translate-middle-y {
+        background-color: transparent;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #hero .position-absolute.translate-middle-y {
+        background-color: transparent;
+    }
+}

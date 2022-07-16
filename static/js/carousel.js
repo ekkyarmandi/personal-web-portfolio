@@ -97,7 +97,7 @@ var feedbacks = [
 feedbacks.forEach((item) => {
     carousel.innerHTML += `<div class="carousel-item">
                                 <div class="row justify-content-center">
-                                    <div class="col-6 text-start">
+                                    <div class="col-md-8 col-lg-9 text-start">
                                         <a class="text-decoration-none text-light" href="https://www.upwork.com/freelancers/ekkyarmandi" target="_blank">
                                             <small>${item.date}</small>
                                             <h5>${item.title}</h5>
