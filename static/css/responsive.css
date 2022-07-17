@@ -8,10 +8,61 @@
     #carouselExampleControls .carousel-inner {
         height: 380px;
     }
+    #hero {
+        padding-top: 56px;
+    }
+    #hero img {
+        width: 100%;
+    }
+    #introduction,
+    #social-networks {
+        text-align: center;
+        margin-top: 16px;
+    }
+    #social-networks a {
+        font-size: 1.5rem;
+    }
+    #social-networks a:last-child {
+        font-size: 1.2rem;
+    }
+    #skill img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+    #skill {
+        font-size: 14px;
+    }
 }
 @media screen and (min-width: 576px) {
+    #hero-introduction {
+        position: relative;
+    }
+    #introduction {
+        position: absolute;
+        top: 50%;
+        width: fit-content;
+        transform: translateY(-50%);
+    }
+    #social-networks {
+        position: absolute;
+        bottom: 0%;
+    }
+    #social-networks a {
+        font-size: 1.5rem;
+    }
+    #social-networks a:last-child {
+        font-size: 1rem;
+    }
+    #skill img {
+        max-width: 65px;
+        max-height: 65px;
+    }
 }
 @media screen and (min-width: 768px) {
+    #hero {
+        padding-top: 74px;
+        height: 100vh;
+    }
     #hero .position-absolute.translate-middle-y {
         background-color: var(--secondary-color-alpha);
     }
@@ -19,14 +70,34 @@
         background-color: var(--main-color);
         height: 360px;
     }
+    #skill {
+        height: 90vh;
+    }
 }
 @media screen and (min-width: 992px) {
     #hero .position-absolute.translate-middle-y {
         background-color: transparent;
     }
+    #skill {
+        height: 88vh;
+    }
 }
 @media screen and (min-width: 1200px) {
-    #hero .position-absolute.translate-middle-y {
-        background-color: transparent;
+}
+@media screen and (min-width: 1400px) {
+    #skill {
+        height: 90.4vh;
+    }
+    #skill .container-fluid,
+    .container {
+        position: relative;
+        height: 100%;
+    }
+    #skill #icon-container {
+        height: 80%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }

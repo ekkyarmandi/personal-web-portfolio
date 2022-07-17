@@ -14,10 +14,6 @@ body {
 .second-bg {
     background-color: var(--secondary-color);
 }
-#hero {
-    padding-top: 74px;
-    height: 100vh;
-}
 .nav-bg {
     background-color: var(--secondary-color);
     transition: 0.3s;
@@ -60,7 +56,7 @@ body {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     color: white;
 }
-.social-icon a:hover {
+#social-networks a:hover {
     color: white !important;
 }
 #service img {
@@ -77,13 +73,13 @@ body {
     background-color: var(--accent-color);
     user-select: none;
 }
-#skills img {
-    max-width: 65px;
-    max-height: 65px;
-}
 #carouselExampleControls .carousel-inner {
     height: 300px;
 }
 #feedback i[class*="fa-star"] {
     color: gold;
+}
+footer {
+    background-color: var(--main-color);
+    font-size: 14px;
 }
